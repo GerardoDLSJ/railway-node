@@ -3,7 +3,7 @@ const express = require("express");
 require("dotenv").config();
 
 const app = express();
-const port = process.env.port;
+const port = process.env.PORT;
 
 // __dirname para saber donde se encuentra desplegada toda la aplicación
 
