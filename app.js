@@ -48,6 +48,6 @@ app.get("*", function (req, res) {
   res.sendFile(__dirname + "/public/404.html");
 });
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Esta pagina esta corriendo en el puerto ${port}`);
 });
